@@ -37,4 +37,18 @@
 </div>
 
 
+# Product Functionality
+<h3> Admin should be able to:</h3>
+- Login to the portal
+- Post a new activity
+- Edit an activity
+- Delete an activity
+- Review Applications
+<h3> Volunteers should be able to: </h3>
+- Signup
+- Login
+- Apply for an activity
+- Check the status of their application
+
+
 
