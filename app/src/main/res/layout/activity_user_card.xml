@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="#E5FAF5"
+    android:layout_margin="3dp"
+
+    android:elevation="5dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="9dp"
+        android:outlineSpotShadowColor="@android:color/background_dark"
+
+        android:padding="5dp"
+        android:textColor="#3F81D1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/displayHeadingToUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#072675"
+            android:fontFamily="@font/poppins_medium"
+            android:maxLines="10"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textFontWeight="600"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/displayDescriptionToUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayHeadingToUser"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <Button
+            android:id="@+id/ApplyForActivity"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/selectedVolunteerToUser"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="227dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="#C61BCDAA"
+            android:paddingTop="0dp"
+            android:text="Apply"
+            app:cornerRadius="50dp"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <TextView
+            android:id="@+id/labelEventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayDescriptionToUser"
+            android:layout_marginTop="20dp"
+            android:text="Event Date:"
+            android:textColor="#3F81D1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayEventDateToUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayDescriptionToUser"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/labelPreprationDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayEventDateToUser"
+            android:layout_marginTop="20dp"
+            android:text="Prepration Date:"
+            android:textColor="#3F81D1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayPreprationDateToUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayEventDateToUser"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+
+        <TextView
+            android:id="@+id/labelNumVolunteers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayPreprationDateToUser"
+            android:layout_marginTop="20dp"
+            android:text="Number Of Volunteers:"
+            android:textColor="#3F81D1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayNumVolunteersToUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayPreprationDateToUser"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+
+        <TextView
+            android:id="@+id/labelSelectedVolunteers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayNumVolunteersToUser"
+            android:layout_marginTop="20dp"
+            android:text="Selected Volunteers:"
+            android:textColor="#3F81D1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/selectedVolunteerToUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayNumVolunteersToUser"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

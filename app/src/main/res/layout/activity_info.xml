@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4FBFB"
+    android:orientation="vertical"
+    android:paddingTop="25dp"
+    android:textAlignment="center"
+    tools:context=".InfoActivity">
+
+
+    <TextView
+        android:id="@+id/infoheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="#0F0A55"
+        android:paddingTop="5dp"
+        android:text="heading"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoheading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="4dp"
+        android:paddingTop="10dp"
+        android:text="desc" />
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="213dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/description"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="22dp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:text="EndDate" />
+
+    <TextView
+        android:id="@+id/prep"
+        android:layout_width="214dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/event"
+        android:layout_alignStart="@+id/event"
+        android:layout_alignEnd="@+id/event"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-2dp"
+        android:paddingStart="20dp"
+        android:text="startDate" />
+
+    <TextView
+        android:id="@+id/volunteers"
+        android:layout_width="214dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/prep"
+        android:layout_alignStart="@+id/prep"
+        android:layout_alignEnd="@+id/prep"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-1dp"
+        android:paddingStart="20dp"
+        android:text="volunteers" />
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_below="@+id/volunteers"
+        android:layout_marginTop="60dp"
+        android:paddingStart="20dp"
+        android:text="applied" />
+
+    <TextView
+        android:id="@+id/list1"
+        android:layout_width="369dp"
+        android:layout_height="84dp"
+        android:layout_below="@+id/list"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="265dp"
+        android:paddingStart="20dp"
+        android:text="selected" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="113dp"
+        android:layout_height="27dp"
+        android:layout_above="@+id/prep"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/description"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toStartOf="@+id/event"
+        android:text="End Date" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="114dp"
+        android:layout_height="31dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignBottom="@+id/prep"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/prep"
+        android:text="Start Date" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/list"
+        android:layout_below="@+id/textView9"
+        android:textColor="@color/black"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/volunteers"
+        android:text="No. of Volunteers" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:background="#43A8B1"
+        android:text="Applied Students"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="0dp"
+        android:background="#43A8B1"
+        android:text="Selected Students"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+

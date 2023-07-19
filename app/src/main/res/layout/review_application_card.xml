@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dp"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="#E5FAF5"
+    android:layout_margin="3dp"
+    android:elevation="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="9dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:maxLines="10"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textColor="#150D60"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contribution"
+            android:layout_marginTop="30dp"
+            app:cornerRadius="50dp"
+            android:layout_marginLeft="40dp"
+            android:text="Accept"
+
+            android:backgroundTint="#0A086E"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <Button
+            android:id="@+id/reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contribution"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            app:cornerRadius="50dp"
+            android:backgroundTint="#0A086E"
+            android:layout_toRightOf="@+id/accept"
+            android:text="Reject"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+
+        <TextView
+            android:id="@+id/skillsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userName"
+            android:layout_marginTop="20dp"
+            android:text="Skillset:"
+            android:textColor="#070707"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/userName"
+            android:layout_marginLeft="120dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/pastExperienceLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/skills"
+            android:layout_marginTop="20dp"
+            android:text="Past Experience:"
+            android:textColor="#040404"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/pastExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/skills"
+            android:layout_marginLeft="120dp"
+            android:text="TextView" />
+
+
+        <TextView
+            android:id="@+id/contributionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pastExperience"
+            android:layout_marginTop="20dp"
+            android:text="Contribution:"
+            android:textStyle="bold"
+            android:textColor="#050505"/>
+
+        <TextView
+            android:id="@+id/contribution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp"
+            android:layout_below="@id/pastExperience"
+            android:text="TextView" />
+
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

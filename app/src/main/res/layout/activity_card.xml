@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:outlineAmbientShadowColor="@android:color/background_dark"
+    android:layout_margin="3dp"
+
+    app:cardBackgroundColor="#E5FAF5"
+    android:elevation="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="9dp"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/displayHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1B1977"
+            android:fontFamily="@font/poppins_medium"
+            android:maxLines="10"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/displayDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayHeading"
+            android:layout_marginTop="20dp"
+            android:maxLines="100"
+            android:text="TextView"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayPreprationDate"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#0A086E"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Review"
+
+            android:textStyle="bold"
+            app:cornerRadius="50dp"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayPreprationDate"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/button4"
+            android:backgroundTint="#0A086E"
+            android:text="Edit"
+            android:textStyle="bold"
+            app:cornerRadius="50dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayPreprationDate"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/button2"
+            android:backgroundTint="#0A086E"
+            android:text="Delete"
+            android:textStyle="bold"
+            app:cornerRadius="50dp"
+            tools:layout_editor_absoluteX="301dp"
+            tools:layout_editor_absoluteY="4dp" />
+
+
+        <TextView
+            android:id="@+id/labelEventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayDescription"
+            android:layout_marginTop="20dp"
+            android:text="Event Date:"
+            android:textColor="#3F81D1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayEventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayDescription"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+
+        <TextView
+            android:id="@+id/labelPreprationDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayEventDate"
+            android:layout_marginTop="20dp"
+            android:text="Prepration Date:"
+            android:textColor="#3F81D1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayPreprationDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayEventDate"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+
+        <TextView
+            android:id="@+id/labelNumVolunteers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayPreprationDate"
+            android:layout_marginTop="20dp"
+            android:text="Number Of Volunteers:"
+            android:textColor="#3F81D1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/displayNumVolunteers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/displayPreprationDate"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
