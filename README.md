@@ -1,8 +1,5 @@
 # Volunteer-Portal-App
-<h2>1.1 Introduction</h2>
-This document lays out a project plan for the “NITC Volunteer Portal”. The plan will include, but is not limited to, product functionality, product design and implementation, scope of the project from the perspective of team members, and the identified requirements. This is fully functional software which is used to hire volunteers from NITC where the admin can post the requirements according to the event and the students can apply to volunteer for the event. The application focuses on minimalism of manual work and is fully controlled over the phased process.
-
-<h2>1.2 Product Scope</h2>
+<h2>Product Scope</h2>
 NITC Volunteer Portal provides an easily accessible space for volunteers to easily apply for their respective interested events by providing some personal details and their field of interest. It also provides admin to approve or reject the volunteer applications according to their interest and past experience of their respective field. The primary goal of this application is to create a smooth hiring process between the volunteers and event organisers in NITC. This will help in saving their time and effort as the students can apply through this application and similarly the admin/organiser can save their time by reviewing the application/request quickly by reviewing volunteer’s skills, experience and interest.
 
 <h2>2.1 Product Overview</h2>
