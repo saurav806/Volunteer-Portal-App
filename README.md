@@ -1,11 +1,10 @@
 # Volunteer-Portal-App
-<h2>2.1 Product Overview</h2>
-- In the NITC campus so many activities are organised very frequently and it all requires a lot of effort from so many volunteers. But there is no reliable system in place to manage all the volunteers.
-- This product is called NITC Volunteer Portal and it’s a new, self-contained product created to solve a problem of our NITC campus.
-- If the organiser needs few volunteers, for now they need to approach all of the students for help whether someone is interested in the opportunity or not. So it is a problem to reach the right people to organise the event.
-- Similarly, the interested students also face the problem of finding the right opportunities to volunteer. Sometimes they can miss the email that they got in their inbox.
-- To solve the problem, we’ve come up with NITC Volunteer Portal which is an Android application that can be used by both the volunteers and the admin. It will make it very easy for the organiser to reach the interested volunteers and hence they can now focus on more important tasks.
-- Similarly with the portal, students will also get all of the information regarding the upcoming events at a common place that will help them apply to the activities in which they are interested.
+# Description:
+The Volunteer Portal Mobile App is a comprehensive solution designed to efficiently manage volunteers' participation in various events. Its primary purpose is to provide a user-friendly platform for volunteers to easily sign up, log in, and manage their involvement according to their convenience.
+
+With the Volunteer Portal Mobile App, volunteers can browse through a wide range of events and choose the ones they are interested in participating in. The app offers a seamless signup process, allowing volunteers to create their accounts and provide relevant details.
+
+Once registered, volunteers gain access to a personalized dashboard where they can view upcoming events, their assigned tasks, and any relevant updates or notifications. The app provides a convenient way for volunteers to manage their availability and opt-out if necessary, ensuring flexibility and accommodating their schedules.
 
 # UI of App
 
@@ -50,5 +49,17 @@
 - Apply for an activity
 - Check the status of their application
 
+# Key Features:
+1. Event Selection: The Volunteer Portal Mobile App provides a comprehensive list of events where volunteers can explore and select the ones they wish to participate in. This feature enables volunteers to align their interests and availability with the events' requirements.
+
+2. User-friendly Signup and Login: The app offers a streamlined signup process, making it easy for volunteers to create their accounts and provide necessary details. Additionally, a secure login system ensures quick access to the app's features and information.
+
+3. Personalized Dashboard: Each volunteer has a dedicated dashboard displaying their upcoming events, assigned tasks, and important updates. This centralized hub allows volunteers to stay organized and informed about their participation.
+
+4. Opt-out Management: In situations where a volunteer cannot attend a previously chosen event, the app offers a straightforward opt-out feature. Volunteers can manage their availability and update their status, ensuring event organizers have accurate participation information.
+
+5. Communication and Notifications: The Volunteer Portal Mobile App facilitates effective communication between event organizers and volunteers. Push notifications and in-app messages keep volunteers informed about any changes, updates, or reminders regarding their chosen events.
+
+The Volunteer Portal Mobile App aims to simplify the volunteer management process, enhancing the overall experience for both volunteers and event organizers. By providing a convenient platform for volunteer signup, event selection, and easy opt-out options, the app empowers volunteers to contribute their time and effort to various events with flexibility and convenience.
 
 
