@@ -7,9 +7,15 @@
 - To solve the problem, we’ve come up with NITC Volunteer Portal which is an Android application that can be used by both the volunteers and the admin. It will make it very easy for the organiser to reach the interested volunteers and hence they can now focus on more important tasks.
 - Similarly with the portal, students will also get all of the information regarding the upcoming events at a common place that will help them apply to the activities in which they are interested.
 
-<div>
-<img src="https://github.com/saurav806/Volunteer-Portal-App/assets/54290238/ecea9bc3-34f7-4d10-a83a-46e773abbc3b" width="350" height="400" />
-<img src="https://github.com/saurav806/Volunteer-Portal-App/assets/54290238/9ea06daa-944e-4300-8bf8-b565352ef032" width="350" height="400" />
+<hr>
+<div display="absolute" >
+  <img src="https://github.com/saurav806/Volunteer-Portal-App/assets/54290238/ecea9bc3-34f7-4d10-a83a-46e773abbc3b" width="450" height="500"/> 
+  <p> Admin Use Case</>
+</div>   
+<div position= "absolute">
+  <img src="https://github.com/saurav806/Volunteer-Portal-App/assets/54290238/9ea06daa-944e-4300-8bf8-b565352ef032" width="450" height="500"/>
+    <p> Volunteer Use Case</p>
 </div>
+
 
 
